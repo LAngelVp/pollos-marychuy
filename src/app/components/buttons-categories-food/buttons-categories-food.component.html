@@ -70,6 +70,9 @@
       </button>
     </div>
   </div>
+  <div *ngIf="productos_filtrados && productos_filtrados.length > 0 && dato_a_buscar">
+    <app-productos-filtrados [productos]="productos_filtrados"></app-productos-filtrados>
+  </div>
   <!-- <app-productos-filtrados [productos]="productos"></app-productos-filtrados> -->
   <ng-container [ngSwitch]="categoriaActual">
     <app-hamburguesas *ngSwitchCase="'hamburguesas'" [productos]="productos"></app-hamburguesas>

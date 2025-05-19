@@ -21,4 +21,14 @@ export class SucursalesComponent implements OnInit{
       this.sucursales = this.sucursalesService.sucursales();
   }
 
+  mandarMensaje(sucursal: SucursalesInterface) {
+    const mensaje = `Me gustaría realizar una orden para ${sucursal.nombre}:\n[Coloca lo que deseas ordenar y la dirección exacta]:\n`;
+    const direccion_url = `https://wa.me/${sucursal.contacto}?text=${encodeURIComponent(mensaje)}`;
+    window.open(direccion_url, '_blank');
+  }
+
+  mostrarUbicacion(sucursal: SucursalesInterface) {
+    window.open(sucursal.url_maps, '_blank');
+  }
+
 }

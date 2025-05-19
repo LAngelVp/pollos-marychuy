@@ -9,10 +9,14 @@
           <p>Telefono : {{ sucursal.contacto }}</p>
           <div class="flex gap-3">
               <div class="mt-5">
-                  <a [href]="sucursal.url_maps" target="_blank" class="text-white bg-red-500 py-2 px-3 rounded">Ver en Google Maps</a>
+                <button class="text-white bg-red-500 py-2 px-3 rounded" (click)="mostrarUbicacion(sucursal)">
+                    Ver en Google Maps
+                </button>
               </div>
               <div class="mt-5">
-                  <a [href]="sucursal.url_maps" target="_blank" class="text-white bg-red-500 py-2 px-3 rounded">Whatsapp</a>
+                <button class="text-white bg-red-500 py-2 px-3 rounded" (click)="mandarMensaje(sucursal)">
+                    Whatsapp
+                </button>
               </div>
           </div>
         </div>

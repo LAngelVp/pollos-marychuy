@@ -18,6 +18,7 @@ import { SucursalesComponent } from "../../components/sucursales/sucursales.comp
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  numero_yanga = "2787388303"
   icono_mensaje = "assets/ICONOS/message.svg"
   icono_localizacion = "assets/ICONOS/location_icon.svg"
   iamgen_encabezado_grande = "https://images.unsplash.com/photo-1497644083578-611b798c60f3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
