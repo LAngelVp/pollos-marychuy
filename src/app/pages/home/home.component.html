@@ -1,0 +1,39 @@
+<div>
+    <div class="flex">
+
+        <!-- Imagen para pantallas pequeñas -->
+        <!-- <img [src]="logo_movil" alt="Logo móvil"
+         class="block md:hidden w-full h-lvh object-cover"> -->
+
+        <!-- Imagen para pantallas medianas en adelante -->
+        <!-- <img [src]="logo_pantallas_lg" alt="Logo grande"
+         class="hidden md:block w-full h-lvh md:h-2/6 object-cover"> -->
+
+         <img [src]="iamgen_encabezado_grande" alt="" class="block h-80 w-full object-cover object-top">
+    </div>
+    <div>
+        <app-sucursales></app-sucursales>
+    </div>
+        <!-- Capa superior con botón centrado -->
+        <!-- <div class="flex flex-col absolute top-0 left-0 right-0 w-full h-full justify-end">
+            <div class="flex gap-5 mb-28 md:mb-20 justify-center">
+                <button class="flex gap-2 btn_header px-4 py-2 rounded" (click)="mandar_mensaje()">
+                    <img [src]="icono_mensaje" alt="">
+                    Contacto
+                </button>
+                <button class="flex gap-2 btn_header px-4 py-2 rounded" (click)="mostrar_ubicacion()">
+                    <img [src]="icono_localizacion" alt="">
+                    Ubicacion
+                </button>
+            </div>
+        </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="my-10">
+        <app-carrusel></app-carrusel>
+    </div>
+    <div class=" my-7">
+        <app-buttons-categories-food></app-buttons-categories-food>
+    </div> -->
+    <app-buttons-categories-food></app-buttons-categories-food>
+</div>

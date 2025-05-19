@@ -1,0 +1,85 @@
+<div>
+  <div class="flex justify-center gap-2 items-center my-5 w-4/5 mx-auto">
+    <input
+      type="text"
+      [(ngModel)]="dato_a_buscar"
+      placeholder="Buscar producto..."
+      class="w-full md:w-1/2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+    />
+    <button (click)="buscarProducto()" class="p-2 border-red-700 border-2 rounded hover:bg-red-600">Buscar</button>
+  </div>
+  <div class="p-4 text-center rounded-t-lg">
+    <h2 class=" text-amber-500 text-2xl font-bold">
+      Menu Pollos Mary Chuy
+    </h2>
+</div>
+    <div class="flex flex-wrap justify-center gap-4 my-5">
+      <button
+        (click)="mostrarProductos('hamburguesas')"
+        class=" bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Hamburguesas
+      </button>
+      <button
+        (click)="mostrarProductos('pollos')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Pollos
+      </button>
+      <button
+        (click)="mostrarProductos('alitas_boneless')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Alitas
+      </button>
+      <button
+        (click)="mostrarProductos('guarniciones')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Guarniciones
+      </button>
+      <button
+        (click)="mostrarProductos('burritos')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Burritos
+      </button>
+      <button
+        (click)="mostrarProductos('snacks')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Snacks
+      </button>
+      <button
+        (click)="mostrarProductos('postres')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Postres
+      </button>
+      <button
+        (click)="mostrarProductos('bebidas')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Bebidas
+      </button>
+      <button
+        (click)="mostrarProductos('piernas_muslos')"
+        class="bg-red-700 text-white px-4 py-2 rounded uppercase shadow-md hover:bg-orange-600 hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Piernas y Muslos
+      </button>
+    </div>
+  </div>
+  <!-- <app-productos-filtrados [productos]="productos"></app-productos-filtrados> -->
+  <ng-container [ngSwitch]="categoriaActual">
+    <app-hamburguesas *ngSwitchCase="'hamburguesas'" [productos]="productos"></app-hamburguesas>
+    <app-pollos *ngSwitchCase="'pollos'" [productos]="productos"></app-pollos>
+    <app-alitas-boneless *ngSwitchCase="'alitas_boneless'" [productos]="productos"></app-alitas-boneless>
+    <app-guarniciones *ngSwitchCase="'guarniciones'" [productos]="productos"></app-guarniciones>
+    <app-burritos *ngSwitchCase="'burritos'" [productos]="productos"></app-burritos>
+    <app-snacks *ngSwitchCase="'snacks'" [productos]="productos"></app-snacks>
+    <app-postres *ngSwitchCase="'postres'" [productos]="productos"></app-postres>
+    <app-bebidas *ngSwitchCase="'bebidas'" [productos]="productos"></app-bebidas>
+    <app-piernas-muslos *ngSwitchCase="'piernas_muslos'" [productos]="productos"></app-piernas-muslos>
+  </ng-container>
+  

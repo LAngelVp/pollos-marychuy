@@ -1,0 +1,20 @@
+<div class="flex flex-col gap-4 md:grid md:grid-cols-2 my-9 w-3/4 m-auto">
+    <div class="flex justify-center">
+        <img [src]="ilustracion_localizacion" alt="" class="w-80 h-auto md:block">
+    </div>
+    <div>
+        <div *ngFor="let sucursal of sucursales" class="rounded mb-4">
+          <h2 class="text-lg font-bold text-amber-500">{{ sucursal.nombre }}</h2>
+          <p>{{ sucursal.direccion }}</p>
+          <p>Telefono : {{ sucursal.contacto }}</p>
+          <div class="flex gap-3">
+              <div class="mt-5">
+                  <a [href]="sucursal.url_maps" target="_blank" class="text-white bg-red-500 py-2 px-3 rounded">Ver en Google Maps</a>
+              </div>
+              <div class="mt-5">
+                  <a [href]="sucursal.url_maps" target="_blank" class="text-white bg-red-500 py-2 px-3 rounded">Whatsapp</a>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
