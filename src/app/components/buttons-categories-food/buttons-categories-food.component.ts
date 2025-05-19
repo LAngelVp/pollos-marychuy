@@ -54,6 +54,7 @@ dato_a_buscar: string = '';
   buscarProducto(): void {
     if (this.dato_a_buscar.trim() !== '') {
       this.productosServicio.buscar_producto(this.dato_a_buscar).subscribe((productos) => {
+        this.productos = [];
         this.productos_filtrados = productos;
         console.log(this.productos_filtrados)
       });
