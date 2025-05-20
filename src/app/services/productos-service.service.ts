@@ -47,11 +47,11 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/tocino.jpeg"
       },
       {
         id: 3,
-        nombre: "Hawaiano",
+        nombre: "Hawaiana",
         descripcion: "Carne de res, jamón, queso blanco, piña y cebolla asada con vegetales.",
         presentaciones: [
           {
@@ -65,7 +65,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/hawaiana.jpeg"
       },
       {
         id: 4,
@@ -101,7 +101,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/marychuy.jpeg"
       },
       {
         id: 6,
@@ -137,7 +137,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/vaquera.jpeg"
       },
       {
         id: 8,
@@ -173,7 +173,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/cheeseburguer.jpeg"
       },
     ],
     pollos: [
@@ -193,7 +193,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/kentoky.jpeg"
       },
       {
         id: 2,
@@ -247,7 +247,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/polloadobocrema.jpeg"
       },
       {
         id: 5,
@@ -283,7 +283,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/pollomacha.jpeg"
       },
       {
         id: 7,
@@ -357,7 +357,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/ALITAS_Y_BONELESS/ordalitas.jpeg'
       },
       {
         id:2,
@@ -514,7 +514,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BURRITOS/ordburritotradicional.jpeg'
       },
       {
         id:2,
@@ -527,7 +527,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BURRITOS/burritojumbo.jpeg'
       },
       {
         id:3,
@@ -540,7 +540,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BURRITOS/chimichanga.jpeg'
       },
       {
         id:4,
@@ -553,7 +553,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BURRITOS/pollo.jpeg'
       },
     ],
     snacks: [
@@ -594,7 +594,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/papasgajo.jpeg'
       },
       {
         id:4,
@@ -646,7 +646,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/nachoscarneasada.jpeg'
       },
       {
         id:8,
@@ -659,7 +659,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/chilipapas.jpeg'
       },
     ],
     postres: [

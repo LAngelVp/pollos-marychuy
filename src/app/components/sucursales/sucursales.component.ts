@@ -13,7 +13,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './sucursales.component.css'
 })
 export class SucursalesComponent implements OnInit{
-  ilustracion_localizacion = "assets/ILUSTRACIONES/localizacion.svg"
+  ilustracion_localizacion = "assets/LOGOS/logo_sin_fondo.svg"
+  // ilustracion_localizacion = "assets/ILUSTRACIONES/localizacion.svg"
   sucursales : SucursalesInterface[] =  [];
   constructor(private sucursalesService: SucursalesService){}
 

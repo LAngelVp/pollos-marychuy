@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ocultar_barra_scroll {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Internet Explorer 10+ */
+}
+
+.ocultar_barra_scroll::-webkit-scrollbar {
+  display: none;                /* WebKit: Chrome, Safari */
+}

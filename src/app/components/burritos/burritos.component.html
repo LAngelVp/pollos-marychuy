@@ -3,15 +3,15 @@
 >
   <div
     *ngFor="let producto of productos; let i = index"
-    class="producto-card bg-gray-400 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-6 flex flex-col items-center text-center animate-fade-up animate-once animate-ease-out animate-duration-700"
+    class="producto-card bg-orange-500 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out p-6 flex flex-col items-center text-center animate-fade-up animate-once animate-ease-out animate-duration-700"
     [ngStyle]="{ 'animation-delay': (i * 100) + 'ms' }"
   >
   <div class="relative w-48 h-48 mb-4 cursor-pointer rounded-full overflow-hidden">
     <img
       [ngSrc]="producto.imagen"
       alt="{{ producto.nombre }}"
-      class="absolute inset-0 w-full h-full object-cover"
-      (click)="openModal(producto)"
+      class="absolute inset-0 w-full h-full object-cover" 
+      (click)="openModal(producto)" 
       fill
     />
   </div>
@@ -21,13 +21,13 @@
     <p class="text-gray-600 mb-4">{{ producto.descripcion }}</p>
     <div *ngIf="producto.presentaciones">
       <ul>
-        <li *ngFor="let presentacion of producto.presentaciones" class="text-sm md:text-lg font-bold text-orange-700">
+        <li *ngFor="let presentacion of producto.presentaciones" class="text-sm md:text-lg font-bold text-white">
           {{ presentacion.nombre }} - {{ presentacion.precio | currency }}
         </li>
       </ul>
     </div>
     <button
-      class="mt-4 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition duration-300 ease-in-out"
+      class="mt-4 bg-orange-800 text-white px-6 py-2 rounded-full hover:bg-orange-700 transition duration-300 ease-in-out"
       (click)="openModal(producto)"
     >
       Ver detalles
@@ -36,7 +36,7 @@
 </div>
   
 <div *ngIf="modalOpen" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-  <div class="bg-gray-300 p-8 rounded-lg w-96 md:w-3/4 lg:w-3/5 relative h-4/5 overflow-y-auto">
+  <div class="bg-gray-300 p-8 rounded-lg w-96 md:w-3/4 lg:w-3/5 relative h-4/5 overflow-y-scroll ocultar_barra_scroll">
     <!-- Botón de cerrar con nuevo estilo -->
     <button 
       class="absolute top-4 right-4 bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-xl font-semibold shadow-md hover:bg-red-600 focus:outline-none transition duration-300 ease-in-out"
@@ -44,7 +44,9 @@
       &times;
     </button>
     
-    <img [src]="selectedProducto.imagen" alt="{{selectedProducto.nombre}}" class="w-full h-72 md:h-3/4 object-content mb-4 rounded-lg">
+    <div class="flex justify-center w-full h-4/5">
+      <img [src]="selectedProducto.imagen" alt="{{selectedProducto.nombre}}" class="w-full md:w-4/5 h-auto object-content mb-4 rounded-lg">
+    </div>
       <h3 class="text-2xl font-semibold text-gray-800 mb-2">{{ selectedProducto.nombre | uppercase }}</h3>
       <p class="text-lg text-gray-600 mb-4">{{ selectedProducto.descripcion }}</p>
       <div *ngIf="selectedProducto.presentaciones">
