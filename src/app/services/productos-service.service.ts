@@ -385,7 +385,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/arroz.svg'
       },
       {
         id:2,
@@ -398,7 +398,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/purepapa.svg'
       },
       {
         id:3,
@@ -411,7 +411,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/frijoles.png'
       },
       {
         id:4,
@@ -429,7 +429,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/tortillas.svg'
       },
       {
         id:5,
@@ -442,7 +442,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/totopos.svg'
       },
       {
         id:6,
@@ -473,7 +473,7 @@ export class ProductosServiceService {
             descripcion: ''
           }
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/picogallo.svg'
       },
       {
         id:8,
@@ -486,7 +486,7 @@ export class ProductosServiceService {
             descripcion: ''
           }
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/guacamole.svg'
       },
       {
         id:9,
@@ -568,7 +568,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/nugets.svg'
       },
       {
         id:2,
@@ -581,7 +581,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/papasfrancesa.svg'
       },
       {
         id:3,
@@ -620,7 +620,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/aroscebolla.svg'
       },
       {
         id:6,
@@ -741,17 +741,17 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
-            nombre: 'Chico',
+            nombre: 'Chico - 600 ml',
             precio : 25,
             descripcion: ''
           },
           {
-            nombre: 'Grande',
+            nombre: 'Grande 2 lts',
             precio : 30,
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/marcasrefresco.svg'
       },
        {
         id:4,
@@ -772,7 +772,12 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
-            nombre: '1 pieza',
+            nombre: 'Mineral 600 ml',
+            precio : 20,
+            descripcion: ''
+          },
+          {
+            nombre: 'Natural 1 lt',
             precio : 20,
             descripcion: ''
           },
@@ -785,12 +790,17 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
+            nombre: 'Corona',
+            precio : 30,
+            descripcion: ''
+          },
+          {
             nombre: 'Victoria',
             precio : 30,
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/marcascervezas.svg'
       },
       {
         id:7,
@@ -798,12 +808,17 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
+            nombre: 'Corona',
+            precio : 70,
+            descripcion: ''
+          },
+          {
             nombre: 'Victoria',
             precio : 70,
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/michelada.svg'
       },
       {
         id:8,
@@ -811,12 +826,17 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
+            nombre: 'Corona',
+            precio : 40,
+            descripcion: ''
+          },
+          {
             nombre: 'Victoria',
             precio : 40,
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/chelada.svg'
       },
     ],
     piernas_muslos: [
