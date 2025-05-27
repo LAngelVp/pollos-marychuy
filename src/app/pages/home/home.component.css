@@ -1,3 +1,6 @@
+.altura_imagen_local{
+    max-height: 35rem;
+}
 .btn_header{
     background-color: rgb(218, 160, 2);
     padding: 2px 5px;

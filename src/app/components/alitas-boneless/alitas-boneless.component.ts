@@ -12,6 +12,8 @@ import { Component, Input } from '@angular/core';
   styleUrl: './alitas-boneless.component.css'
 })
 export class AlitasBonelessComponent {
+  salsas_imagen = "assets/ILUSTRACIONES/Salsas.svg";
+  text_salsas = "Salsas para las alitas y boneless";
   @Input() productos: any[] = [];
   modalOpen: boolean = false;
   selectedProducto: any = null;

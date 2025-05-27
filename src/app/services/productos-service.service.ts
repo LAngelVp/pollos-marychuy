@@ -83,7 +83,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/3quesos.jpg"
       },
       {
         id: 5,
@@ -229,7 +229,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/asado.jpg"
       },
       {
         id: 4,
@@ -370,7 +370,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/ALITAS_Y_BONELESS/boneless.jpg'
       }
     ],
     guarniciones: [
@@ -733,7 +733,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/aguas_temporada.png'
       },
        {
         id:2,
