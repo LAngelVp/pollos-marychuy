@@ -15,6 +15,7 @@ export class PollosComponent {
   @Input() productos: any[] = [];
   modalOpen: boolean = false;
   selectedProducto: any = null;
+  imagenAmpliada: string | null = null;
   
   
   openModal(producto: any) {
@@ -26,5 +27,12 @@ export class PollosComponent {
   closeModal() {
     this.modalOpen = false;
     this.selectedProducto = null;
+  }
+  verImagen(imagen: string): void {
+  this.imagenAmpliada = imagen;
+  }
+
+  cerrarImagen(): void {
+    this.imagenAmpliada = null;
   }
 }

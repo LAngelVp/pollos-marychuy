@@ -17,7 +17,7 @@ export class AlitasBonelessComponent {
   @Input() productos: any[] = [];
   modalOpen: boolean = false;
   selectedProducto: any = null;
-  
+  imagenAmpliada: string | null = null;
   
   openModal(producto: any) {
     console.log(this.productos);
@@ -29,4 +29,11 @@ export class AlitasBonelessComponent {
     this.modalOpen = false;
     this.selectedProducto = null;
   }
+  verImagen(imagen: string): void {
+  this.imagenAmpliada = imagen;
+}
+
+cerrarImagen(): void {
+  this.imagenAmpliada = null;
+}
 }

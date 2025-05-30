@@ -11,7 +11,7 @@ export class SucursalesService {
       nombre: "Sucursal Yanga",
       direccion: "Calle 2 entre avenidas 7 y 9, colonia centro, 94930, Yanga, Ver.",
       url_maps: "https://www.google.com.mx/maps/place/Pollos+Mary+Chuy/@18.8310214,-96.8043005,17z/data=!3m1!4b1!4m6!3m5!1s0x85c4f2540a48768b:0x91ef20c7f5db143f!8m2!3d18.8310214!4d-96.8017256!16s%2Fg%2F11bxgztrjh?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D",
-      contacto: "2787388303"
+      contacto: "2713991088"
     },
     {
       id: 2,

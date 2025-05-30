@@ -211,7 +211,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/barbacoa.jpg"
       },
       {
         id: 3,
@@ -247,7 +247,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/POLLOS/polloadobocrema.jpeg"
+        imagen: "assets/POLLOS/crema.jpg"
       },
       {
         id: 5,
@@ -460,7 +460,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/GUARNICIONES/consome.jpg'
       },
       {
         id:7,
@@ -607,7 +607,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/dedosqueso.svg'
       },
       {
         id:5,
