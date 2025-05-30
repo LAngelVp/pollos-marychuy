@@ -155,7 +155,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/chiliburger.jpg"
       },
       {
         id: 9,
@@ -174,6 +174,24 @@ export class ProductosServiceService {
           },
         ],
         imagen: "assets/HAMBURGUESAS/cheeseburguer.jpeg"
+      },
+      {
+        id: 10,
+        nombre: "Pollo",
+        descripcion: "Pan brioche, carne de res, queso amarillo, salsa de queso, tocino, cebolla asada y aderezo especial.",
+        presentaciones: [
+          {
+            nombre: "Normal",
+            precio: 75,
+            descripcion: "Sin papas"
+          },
+          {
+            nombre: "Con papas",
+            precio: 90,
+            descripcion: "Con papas"
+          },
+        ],
+        imagen: "assets/HAMBURGUESAS/pollo.jpeg"
       },
     ],
     pollos: [
