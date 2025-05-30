@@ -651,7 +651,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/SNACKS/chilinachos.jpg'
       },
       {
         id:7,
