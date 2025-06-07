@@ -283,7 +283,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/adobo_chipotle.jpg"
       },
       {
         id: 6,
@@ -319,7 +319,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/salsa_cacahuate.jpg"
       },
       {
         id: 8,
@@ -355,7 +355,7 @@ export class ProductosServiceService {
             descripcion: ""
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/POLLOS/salsa_bbq.jpg"
       },
     ],
     alitas_boneless: [
