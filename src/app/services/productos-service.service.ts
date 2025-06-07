@@ -524,7 +524,7 @@ export class ProductosServiceService {
       {
         id:1,
         nombre: "Tradicional",
-        descripcion: '',
+        descripcion: 'Tortilla de harina relleno de carne, arroz, guacamole, lechuga, tomate y crema.',
         presentaciones: [
           {
             nombre: '2 piezas',
@@ -537,7 +537,7 @@ export class ProductosServiceService {
       {
         id:2,
         nombre: "Jumbo",
-        descripcion: '',
+        descripcion: 'Tortilla de harina grande relleno decarne, queso y frijoles. acompañadocon guacamole y pico de gallo.',
         presentaciones: [
           {
             nombre: '1 pieza',
@@ -550,7 +550,7 @@ export class ProductosServiceService {
       {
         id:3,
         nombre: "Chimichanga",
-        descripcion: '',
+        descripcion: 'Burrito frito relleno de carne, queso yfrijoles. Con crema, pico de gallo, papas fritas y guacamole.',
         presentaciones: [
           {
             nombre: '1 pieza',
@@ -563,7 +563,7 @@ export class ProductosServiceService {
       {
         id:4,
         nombre: "Pollo chipotle",
-        descripcion: '',
+        descripcion: 'Burrito relleno de pollo frito, queso, salsa de chipotle, lechuga, tomate,cebolla. Con papas fritas y guacamole.',
         presentaciones: [
           {
             nombre: '1 pieza',
