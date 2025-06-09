@@ -29,7 +29,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/tradicional.jpg"
       },
       {
         id: 2,
@@ -119,7 +119,7 @@ export class ProductosServiceService {
             descripcion: "Con papas"
           },
         ],
-        imagen: "assets/LOGOS/logo_sin_fondo.svg"
+        imagen: "assets/HAMBURGUESAS/mexicana.jpg"
       },
       {
         id: 7,
