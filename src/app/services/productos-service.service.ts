@@ -777,12 +777,22 @@ export class ProductosServiceService {
         descripcion: '',
         presentaciones: [
           {
-            nombre: '1 pieza',
+            nombre: 'Del Valle - 355 ml',
+            precio : 25,
+            descripcion: ''
+          },
+          {
+            nombre: 'Delaware Punch - 600 ml',
+            precio : 25,
+            descripcion: ''
+          },
+          {
+            nombre: 'Boing - 500 ml',
             precio : 25,
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/jugos.svg'
       },
       {
         id:5,
@@ -800,7 +810,7 @@ export class ProductosServiceService {
             descripcion: ''
           },
         ],
-        imagen: 'assets/LOGOS/logo_sin_fondo.svg'
+        imagen: 'assets/BEBIDAS/agua.svg'
       },
       {
         id:6,
